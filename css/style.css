@@ -196,3 +196,65 @@ figure.effect-Beauty:hover p {
 	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);
 }
+
+
+@media (min-width: 200px) and (max-width: 767px) {
+.navstyle{
+	width: 100% !important;
+}
+.navstyle li a {
+    padding: 10px 15px !important;
+    text-align: center;
+    display: block;
+}
+.notes button
+{
+margin-top: 20px;
+}
+.centertext
+{
+text-align: center;
+}
+.btn-or
+{
+margin-top: 20px;
+display: inline-block;
+}
+.social {
+    margin-top: 10px;
+}
+.menu-button {
+
+    padding: 8px 10px !important;
+    margin-top: 9px !important;
+    font-size: 30px !important;
+	color: #fff;
+}
+figure.effect-Beauty h2 {
+    margin-top: 15%;
+    font-size: 16px;
+}
+figure.effect-Beauty p {
+    padding: 6px;
+	display: none;
+	}
+.features, .about, .notes, .testimonials, .address, .gallery{
+padding: 40px 0px;
+	}
+}
+@media (min-width: 768px) and (max-width: 990px) {
+.social {
+    margin-top: 10px;
+}
+.notes button {
+    padding: 14px 19px;
+    font-size: 13px;
+}
+}
+@media (min-width: 100px) and (max-width: 350px) {
+.sorting {
+
+    font-size: 10px;
+
+}
+}
